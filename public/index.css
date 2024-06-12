@@ -19,6 +19,7 @@ body {
     --first-footer: #171717;
 }
 header {
+    margin: auto;
     text-align: center;
     align-content: center;
     width: 1440px;
@@ -26,15 +27,17 @@ header {
     background-color: var(--header);
 }
 #hero-section {
-    margin-top: 100px;
+    margin-top: 120px;
     text-align: center;
     width: 1440px;
     height: 605px;
+    margin: auto;
 }
 .hero-section-title {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    margin-top: 120px;
 }
 #images-container {
     margin-top: 80px;
@@ -56,9 +59,8 @@ h2 {
     text-transform: uppercase;
 }
 #feature-section {
-    width: 1440px;
+    margin: auto;
     height: 825px;
-   margin-left: 120px;
    display: flex;
    flex-direction: column;
 }
@@ -107,9 +109,10 @@ h3 {
     color: var(--grey);
 }
 #feature-section {
+    width: 1200px;
     display: flex;
     position: relative;
-    margin-left: 120px;
+    margin: auto;
     margin-top: 220px;
     height: 845px;
 }
@@ -240,8 +243,7 @@ h3 {
     justify-content: center;
     align-items: center;
     gap: 80px;
-    margin-top: 150px;
-    width: 1440px;
+    margin-top: 237px;
 }
 h5 {
     color: var(--grey);
@@ -329,7 +331,10 @@ h7 {
     width: 130px; 
     background-color: #18ba51;
 }
-
+footer {
+    width: 1440px;
+    margin: auto;
+}
 footer nav {
     width: 1440px;
     background-color: var(--header);
